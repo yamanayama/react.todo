@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.list {
+  list-style: none;
+
+  li {
+    margin: 1em auto;
+    width: 400px;
+    background-color: white;
+    color: #333;
+    padding: .5em;
+    border-radius: 14px;
+  }
+}
+
+.app {
+  background-color: #dcdcdc;
+  width: 100%;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.done p {
+  display: none;
+}

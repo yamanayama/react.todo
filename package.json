@@ -8,6 +8,8 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
+    "lint": "eslint app.js",
+    "lint:fix": "eslint --fix app.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,5 +23,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
 }
